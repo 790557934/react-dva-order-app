@@ -1,0 +1,28 @@
+.nav {
+    background: #f9f8fa;
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+    .logo {
+        display: inline-block;
+        font-size: 30px;
+        float: left;
+        width: 50px;
+        text-align: center;
+    }
+    .menu-left {
+        border-bottom: none;
+        background: none;
+        display: inline-block;
+        width: 100%;
+    }
+    .login {
+        position: absolute;
+        right: 68px;
+    }
+    .register {
+        position: absolute;
+        right: 0;
+    }
+}

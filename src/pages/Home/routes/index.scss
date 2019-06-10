@@ -1,0 +1,19 @@
+.homeContent {
+    background: url('../../../assets/pizza.jpeg');
+    height: 94vh;
+    text-align: center;
+    padding: 10%;
+    .centerInfo {
+        height: 400px;
+        max-width: 70vw;
+        background: #fff;
+        opacity: .5;
+        margin:0 auto;
+        padding: 20px;
+        h1,h2 {
+            font-weight: 700;
+            font-size: 40px;
+            margin: 6%;
+        }
+    }
+}
